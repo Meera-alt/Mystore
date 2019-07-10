@@ -54,3 +54,14 @@ body {
   text-align: center;
   box-sizing: border-box;
 }
+
+#footer {
+  height: 100px;
+  background: green;
+  color: white;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
