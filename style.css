@@ -5,7 +5,7 @@ html {
 
 body {
   position: relative;
-  background: cornsilk;
+  background: cornflowerblue;
   margin: 0 auto;
   min-height: 100%;
   overflow: auto;
@@ -13,7 +13,7 @@ body {
 
 #header {
   height: 100px;
-  background: cornflowerblue;
+  background: rgb(153, 171, 205);
   margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ body {
 
 #footer {
   height: 100px;
-  background: cornflowerblue;
+  background: rgb(153, 171, 205);
   color: white;
   text-align: center;
   position: fixed;
@@ -66,14 +66,22 @@ body {
   width: 100%;
 }
 
-.navbar {
+#filter {
+  width: 30%;
   text-align: center;
-  color: white;
-  background: cornflowerblue;
-  font-size: 20px;
+  border-right: solid black 1px;
+  padding: 10px;
+  margin-right: 50px;
+  margin-top: -15px;
 }
 
-.navbar a:hover {
-  background: #ddd;
-  color: black;
+#refresh {
+  text-align: right;
+}
+
+.tables {
+  border: solid black 1px;
+  margin-top: -17px;
+  width: 31.15%;
+  height: 71.2%;
 }
