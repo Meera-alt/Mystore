@@ -85,3 +85,33 @@ body {
   width: 31.15%;
   height: 71.2%;
 }
+
+.colors {
+  background: rgb(153, 171, 205);
+  width: 300px;
+  border: 3px solid black;
+  padding: 40px;
+  margin: 10px;
+}
+
+.Brand {
+  background: rgb(153, 171, 205);
+  width: 300px;
+  border: 3px solid black;
+  padding: 40px;
+  margin: 10px;
+}
+
+.price {
+  background: rgb(153, 171, 205);
+  width: 300px;
+  border: 3px solid black;
+  padding: 40px;
+  margin: 10px;
+}
+.Discount {
+  background: rgb(153, 171, 205);
+  width: 300px;
+  border: 3px solid black;
+  padding: 40px;
+}
