@@ -22,14 +22,14 @@ body {
 #header .logo {
   float: left;
   padding: 35px;
-  width: 20%;
-  height: 100%;
+  width: 368px;
+  height: 100px;
   text-align: center;
   box-sizing: border-box;
 }
 
 #header .logo img {
-  width: 150px;
+  width: 150%;
 }
 
 #header .searchBox {
