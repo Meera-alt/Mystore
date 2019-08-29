@@ -5,16 +5,26 @@ html {
 
 body {
   position: relative;
-  background: rgb(209, 135, 179);
+  background-color: rgb(209, 135, 179);
   margin: 0 auto;
   min-height: 100%;
   overflow: auto;
 }
 
+img.image {
+  width: 200px;
+  margin: 5px;
+  padding: 4px;
+  height: 300px;
+  float: left;
+  border: solid black 1px;
+  display: inline-flexbox;
+}
+
 #header {
   height: 100px;
   background: rgb(230, 164, 210);
-  margin: 0 auto;
+  margin: 0;
   background-image: url(footer-back.png);
   background-size: 30%;
 }
@@ -139,8 +149,9 @@ ul.products li {
 
 .sidebar {
   margin: 0;
-  padding: 2%;
-  width: 20%;
+  padding: 1%;
+  flex: 1;
+  width: 15%;
   background-color: rgb(209, 135, 179);
   position: fixed;
   border: 3px solid white;
@@ -148,16 +159,16 @@ ul.products li {
   overflow: auto;
 }
 
-.card {
+/* .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 20%;
   height: 30%;
   margin: auto;
   text-align: center;
   font-family: arial;
-}
+} */
 
-.card button {
+/* .card button {
   border: none;
   outline: 0;
   padding: 3px;
@@ -167,43 +178,43 @@ ul.products li {
   cursor: pointer;
   width: 100%;
   font-size: 18px;
-}
+} */
 
-.card button:hover {
+/* .card button:hover {
   opacity: 0.7;
-}
-.productbox {
+} */
+/* .productbox {
   padding: 10px;
   margin-left: 10px;
   margin-bottom: 10px;
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
   box-shadow: 0 8px 6px -6px #999;
-}
+} */
 
-.producttitle {
+/* .producttitle {
   font-weight: bold;
   padding: 5px 0 5px 0;
-}
-
+} */
+/* 
 .productprice {
   border-top: 1px solid #dadada;
   padding-top: 5px;
-}
+} */
 
-.pricetext {
+/* .pricetext {
   font-weight: bold;
   font-size: 1.4em;
-}
+} */
 
-.products {
+/* .products {
   display: inline-flex;
   margin-left: 30%;
-}
-.products2 {
+} */
+/* .products2 {
   display: inline-flex;
   margin-left: 30%;
-}
+} */
 
 .dropdown {
   float: left;
@@ -219,6 +230,15 @@ ul.products li {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+}
+
+#products {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 0 10%;
+  left: 10%;
 }
 
 .navbar a:hover,
