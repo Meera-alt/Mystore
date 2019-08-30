@@ -1,5 +1,5 @@
 {
-  "products": [
+  "data": [
     {
       "name": "MacBook Pro",
       "brand": "Apple",
@@ -60,6 +60,49 @@
       "brand": "LG",
       "color": "Mate Black",
       "imgurl": "8.jpg",
+      "description": ""
+    },
+    {
+      "name": "Xiaomi power bank",
+      "brand": "Xiaomi",
+      "color": "Black",
+      "imgurl": "9.jpg",
+      "description": ""
+    },
+    {
+      "name": "Google Chromcast",
+      "brand": "Google",
+      "color": "Black",
+      "imgurl": "10.jpg",
+      "description": ""
+    },
+    {
+      "name": "Bose wireless Headphones",
+      "brand": "Bose",
+      "color": "Pink",
+      "imgurl": "11.jpg",
+      "description": ""
+    },
+    {
+      "name": "Anker case cover",
+      "brand": "Anker",
+      "color": "Black",
+      "imgurl": "12.jpg",
+      "description": ""
+    },
+    {
+      "name": "Microsoft surface go",
+      "brand": "Microsoft",
+      "color": "Black",
+      "imgurl": "13.jpg",
+      "description": ""
+    },
+
+    {
+      "name": "Lenovo notebook laptop",
+      "brand": "Lenovo",
+      "color": "Dark Gray",
+      "imgurl": "14.jpg",
       "description": ""
     }
   ]

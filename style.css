@@ -2,6 +2,9 @@ html {
   height: 100%;
   overflow: auto;
 }
+#searchBottom {
+  padding: 6px;
+}
 
 body {
   position: relative;
@@ -14,7 +17,7 @@ body {
 img.image {
   width: 200px;
   margin: 5px;
-  padding: 4px;
+  padding: 8px;
   height: 300px;
   float: left;
   border: solid black 1px;
@@ -270,4 +273,7 @@ ul.products li {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+form {
+  border: 3px solid #f1f1f1;
 }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css"></link>
+   
+  </head>
+</html>
+
+<body>
+  <h2>Login to your Account</h2>
+  <script src="java.js" ></script>
+</body>
+<div class="logincontainer">
+  <form name="login" action="index.html" >
+    <label for="uname"><b>Username</b></label>
+    <input
+      type="text"
+      placeholder="username"
+      name="uname"
+      id="username"
+      required
+    />
+
+    <br />
+    <label for="psw"><b>Password</b></label>
+    <input
+      type="password"
+      id="password"
+      placeholder="password"
+      name="psw"
+      required
+    />
+    <br />
+
+    <button type="submit" onclick="validate()">Login</button>
+    <br>
+    <label>
+        <input type="checkbox" aria-checked="false" name="remember" /> Remember me
+      </label>
+    </div>
+  </form>
+
+  
