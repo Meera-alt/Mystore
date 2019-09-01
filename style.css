@@ -48,10 +48,15 @@ img.image {
 #header .searchBox {
   float: left;
   padding: 35px;
-  width: 60%;
+  width: 45%;
   height: 100%;
   text-align: center;
   box-sizing: border-box;
+}
+
+#logoutButton {
+  float: right;
+  padding: 10px;
 }
 
 #header .searchBox input {
@@ -62,7 +67,7 @@ img.image {
 }
 
 #header .welcomeBox {
-  float: left;
+  float: right;
   width: 20%;
   padding: 30px;
   height: 100%;
@@ -273,7 +278,4 @@ ul.products li {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-form {
-  border: 3px solid #f1f1f1;
 }

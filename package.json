@@ -2,7 +2,7 @@
   "name": "mystore",
   "version": "1.0.0",
   "description": "My First Store ",
-  "main": "index.js",
+  "main": "java.js",
   "dependencies": {
     "live-server": "^1.2.1"
   },
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/Meera-alt/Mystore/issues"
   },
-  "homepage": "https://github.com/Meera-alt/Mystore#readme"
+  "homepage": "https://github.com/Meera-alt/Mystore#readme",
+  "keywords": []
 }

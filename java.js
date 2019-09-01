@@ -1,13 +1,34 @@
 var productsData;
-fetch("./products.json")
+var promise = fetch("./products.json");
+promise
   .then(response => response.json())
   .then(data => {
     productsData = data;
     displayProducts(data);
   });
 
+// window.onload = function() {
+//   name = localStorage.getItem("username");
+//   if (name != "undefined" || name != "null") {
+//     document.getElementById("welcomeMessage").innerHTML =
+//       "Welcome  " + name + "!";
+//   } else document.getElementById("welcomeMessage").innerHTML = "Hello!" + name;
+// };
+
 // display products
 function displayProducts(obj) {
+  document.getElementById("welcomeMessage").value = localStorage.getItem(
+    "username"
+  );
+  document.getElementById("welcomeMessage").innerHTML = localStorage.getItem(
+    "username"
+  );
+  document.getElementById("cartItems").value = localStorage.getItem(
+    document.getElementById("welcomeMessage").value
+  );
+  document.getElementById("cartItems").innerHTML = localStorage.getItem(
+    document.getElementById("welcomeMessage").value
+  );
   for (let value of obj) {
     var div = document.createElement("div");
 
@@ -24,6 +45,7 @@ function displayProducts(obj) {
     var p2 = document.createElement("p");
     var button = document.createElement("button");
     button.innerHTML = "Add to cart";
+    button.setAttribute("onclick", "incrementCartAmount()");
     p2.appendChild(button);
     div.appendChild(p2);
 
@@ -41,7 +63,18 @@ function fillterdProducts() {
     })
   );
 }
-
+function incrementCartAmount() {
+  var currentUser = document.getElementById("welcomeMessage").value;
+  var currentCount = document.getElementById("cartItems");
+  var currentCountParsed = parseInt(currentCount.textContent);
+  var NewCount = counter(currentCountParsed);
+  currentCount.innerHTML = NewCount;
+  localStorage.setItem(currentUser, NewCount);
+}
+// Counter function used by Increment Cart Amount Function
+function counter(counter) {
+  return counter + 1;
+}
 function createProducts(products) {
   for (let value of products) {
     for (let index in value) {
@@ -52,50 +85,32 @@ function createProducts(products) {
   }
 }
 
-function validate() {
-  var username = document.getElementById("username").value;
-  var password = document.getElementById("password").value;
-  if (username == null || username == "") {
-    alert("Please enter the username.");
-    return false;
+function createTable(records) {
+  var table = document.createElement("table");
+  table.setAttribute("border", 1);
+  table.appendChild(createHeading(records[0]));
+  for (let record of records) {
+    table.appendChild(createRow(record));
   }
-  if (password == null || password == "") {
-    alert("Please enter the password.");
-    return false;
-  }
-  if ((password == "123") & (username == "meera")) {
-    return alert("Login successful");
-  } else {
-    return alert("Please try again");
-  }
+  document.getElementById("container").appendChild(table);
+}
 
-  function createTable(records) {
-    var table = document.createElement("table");
-    table.setAttribute("border", 1);
-    table.appendChild(createHeading(records[0]));
-    for (let record of records) {
-      table.appendChild(createRow(record));
-    }
-    document.getElementById("container").appendChild(table);
+function createHeading(record) {
+  var row = document.createElement("tr");
+  for (let prop in record) {
+    var heading = document.createElement("th");
+    heading.innerHTML = prop.toUpperCase();
+    row.appendChild(heading);
   }
+  return row;
+}
 
-  function createHeading(record) {
-    var row = document.createElement("tr");
-    for (let prop in record) {
-      var heading = document.createElement("th");
-      heading.innerHTML = prop.toUpperCase();
-      row.appendChild(heading);
-    }
-    return row;
+function createRow(record) {
+  var row = document.createElement("tr");
+  for (let prop in record) {
+    var column = document.createElement("td");
+    column.innerHTML = record[prop];
+    row.appendChild(column);
   }
-
-  function createRow(record) {
-    var row = document.createElement("tr");
-    for (let prop in record) {
-      var column = document.createElement("td");
-      column.innerHTML = record[prop];
-      row.appendChild(column);
-    }
-    return row;
-  }
+  return row;
 }

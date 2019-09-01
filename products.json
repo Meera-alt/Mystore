@@ -1,109 +1,107 @@
-{
-  "data": [
-    {
-      "name": "MacBook Pro",
-      "brand": "Apple",
-      "color": "Grey",
-      "imgurl": "1.jpg",
-      "description": "13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels per inch with support for millions of colors"
-    },
+[
+  {
+    "name": "MacBook Pro",
+    "brand": "Apple",
+    "color": "Grey",
+    "imgurl": "1.jpg",
+    "description": "13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels per inch with support for millions of colors"
+  },
 
-    {
-      "name": "iPhonex",
-      "brand": "Apple",
-      "color": "Grey",
-      "imgurl": "2.jpg",
-      "description": "has two cameras on the rear. One is a 12-megapixel wide-angle camera with f/1.8 aperture, with support for face detection, high dynamic range and optical image stabilization"
-    },
+  {
+    "name": "iPhonex",
+    "brand": "Apple",
+    "color": "Grey",
+    "imgurl": "2.jpg",
+    "description": "has two cameras on the rear. One is a 12-megapixel wide-angle camera with f/1.8 aperture, with support for face detection, high dynamic range and optical image stabilization"
+  },
 
-    {
-      "name": "huwawei",
-      "brand": "huwawei",
-      "color": "Purple",
-      "imgurl": "3.jpg",
-      "description": " "
-    },
+  {
+    "name": "huwawei",
+    "brand": "huwawei",
+    "color": "Purple",
+    "imgurl": "3.jpg",
+    "description": " "
+  },
 
-    {
-      "name": "iPad Pro",
-      "brand": "Apple",
-      "color": "Grey",
-      "imgurl": "4.jpg",
-      "description": " "
-    },
-    {
-      "name": "MI Note 6 Pro",
-      "brand": "MI",
-      "color": "Black",
-      "imgurl": "5.jpg",
-      "description": " "
-    },
+  {
+    "name": "iPad Pro",
+    "brand": "Apple",
+    "color": "Grey",
+    "imgurl": "4.jpg",
+    "description": " "
+  },
+  {
+    "name": "MI Note 6 Pro",
+    "brand": "MI",
+    "color": "Black",
+    "imgurl": "5.jpg",
+    "description": " "
+  },
 
-    {
-      "name": "Google phone",
-      "brand": "Google",
-      "color": "Gold",
-      "imgurl": "6.jpg",
-      "description": " "
-    },
+  {
+    "name": "Google phone",
+    "brand": "Google",
+    "color": "Gold",
+    "imgurl": "6.jpg",
+    "description": " "
+  },
 
-    {
-      "name": "Samsung S10",
-      "brand": "Samsung",
-      "color": "Black",
-      "imgurl": "7.jpg",
-      "description": " "
-    },
+  {
+    "name": "Samsung S10",
+    "brand": "Samsung",
+    "color": "Black",
+    "imgurl": "7.jpg",
+    "description": " "
+  },
 
-    {
-      "name": "LG",
-      "brand": "LG",
-      "color": "Mate Black",
-      "imgurl": "8.jpg",
-      "description": ""
-    },
-    {
-      "name": "Xiaomi power bank",
-      "brand": "Xiaomi",
-      "color": "Black",
-      "imgurl": "9.jpg",
-      "description": ""
-    },
-    {
-      "name": "Google Chromcast",
-      "brand": "Google",
-      "color": "Black",
-      "imgurl": "10.jpg",
-      "description": ""
-    },
-    {
-      "name": "Bose wireless Headphones",
-      "brand": "Bose",
-      "color": "Pink",
-      "imgurl": "11.jpg",
-      "description": ""
-    },
-    {
-      "name": "Anker case cover",
-      "brand": "Anker",
-      "color": "Black",
-      "imgurl": "12.jpg",
-      "description": ""
-    },
-    {
-      "name": "Microsoft surface go",
-      "brand": "Microsoft",
-      "color": "Black",
-      "imgurl": "13.jpg",
-      "description": ""
-    },
+  {
+    "name": "LG",
+    "brand": "LG",
+    "color": "Mate Black",
+    "imgurl": "8.jpg",
+    "description": ""
+  },
+  {
+    "name": "Xiaomi power bank",
+    "brand": "Xiaomi",
+    "color": "Black",
+    "imgurl": "9.jpg",
+    "description": ""
+  },
+  {
+    "name": "Google Chromcast",
+    "brand": "Google",
+    "color": "Black",
+    "imgurl": "10.jpg",
+    "description": ""
+  },
+  {
+    "name": "Bose wireless Headphones",
+    "brand": "Bose",
+    "color": "Pink",
+    "imgurl": "11.jpg",
+    "description": ""
+  },
+  {
+    "name": "Anker case cover",
+    "brand": "Anker",
+    "color": "Black",
+    "imgurl": "12.jpg",
+    "description": ""
+  },
+  {
+    "name": "Microsoft surface go",
+    "brand": "Microsoft",
+    "color": "Black",
+    "imgurl": "13.jpg",
+    "description": ""
+  },
 
-    {
-      "name": "Lenovo notebook laptop",
-      "brand": "Lenovo",
-      "color": "Dark Gray",
-      "imgurl": "14.jpg",
-      "description": ""
-    }
-  ]
-}
+  {
+    "name": "Lenovo notebook laptop",
+    "brand": "Lenovo",
+    "color": "Dark Gray",
+    "imgurl": "14.jpg",
+    "description": ""
+  }
+]
