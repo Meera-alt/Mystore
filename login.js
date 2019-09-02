@@ -24,7 +24,3 @@ function validate() {
     }
   }
 }
-function logout() {
-  alert("You are about to logout");
-  window.location.assign("index.html");
-}

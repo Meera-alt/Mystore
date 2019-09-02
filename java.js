@@ -63,6 +63,19 @@ function fillterdProducts() {
     })
   );
 }
+
+// function BrandRadio() {
+//   if (document.getElementById("Apple").checked == true) {
+//     var x = document.getElementById("Apple").value;
+//   }
+
+//   displayProducts()
+//     productsData.filter(() => {
+//       var Products= value.brand;
+//       if (products == x){
+//       return Products;
+//       }
+
 function incrementCartAmount() {
   var currentUser = document.getElementById("welcomeMessage").value;
   var currentCount = document.getElementById("cartItems");
