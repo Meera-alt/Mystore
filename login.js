@@ -23,4 +23,6 @@ function validate() {
       window.open("products.html");
     }
   }
+  window.alert("Please try again");
+  window.open("index.html");
 }
